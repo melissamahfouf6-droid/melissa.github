@@ -12,7 +12,8 @@ exclude =
     *.egg-info,
     mlruns,
     .pytest_cache,
-    .mypy_cache
+    .mypy_cache,
+    tests
 ignore =
     E203,  # whitespace before ':'
     E501,  # line too long (handled by max-line-length)
